@@ -39,202 +39,29 @@
       "email": "kiran.nair@company.com",
       "department": "Engineering",
       "joinDate": "2023-05-05"
-    },
-    {
-      "employeeId": 6,
-      "firstName": "Ajay",
-      "lastName": "Sanyal",
-      "email": "ajay.sanyal@company.com",
-      "department": "Engineering",
-      "joinDate": "2024-01-15"
     }
   ],
-  "leaves": [
-    {
-      "leaveId": 1,
-      "employeeId": 1,
-      "startDate": "2025-08-01",
-      "endDate": "2025-08-05",
-      "leaveType": "Annual",
-      "reason": "Family vacation",
-      "totalDays": 5,
-      "status": "Approved",
-      "appliedOn": "2026-04-10"
-    },
-    {
-      "leaveId": 2,
-      "employeeId": 1,
-      "startDate": "2025-08-01",
-      "endDate": "2025-08-05",
-      "leaveType": "Annual",
-      "reason": "Family vacation",
-      "totalDays": 5,
-      "status": "Pending",
-      "appliedOn": "2026-04-10"
-    },
-    {
-      "leaveId": 3,
-      "employeeId": 1,
-      "startDate": "2025-08-01",
-      "endDate": "2025-08-05",
-      "leaveType": "Annual",
-      "reason": "Family vacation",
-      "totalDays": 5,
-      "status": "Pending",
-      "appliedOn": "2026-04-10"
-    },
-    {
-      "leaveId": 4,
-      "employeeId": 2,
-      "startDate": "2025-08-01",
-      "endDate": "2025-08-05",
-      "leaveType": "Annual",
-      "reason": "Family vacation",
-      "totalDays": 5,
-      "status": "Pending",
-      "appliedOn": "2026-04-10"
-    }
-  ],
+  "leaves": [],
   "leaveBalances": [
-    {
-      "balanceId": 1,
-      "employeeId": 1,
-      "year": 2025,
-      "leaveType": "Annual",
-      "totalDays": 18,
-      "usedDays": 10,
-      "remainingDays": 8
-    },
-    {
-      "balanceId": 2,
-      "employeeId": 1,
-      "year": 2025,
-      "leaveType": "Sick",
-      "totalDays": 10,
-      "usedDays": 2,
-      "remainingDays": 8
-    },
-    {
-      "balanceId": 3,
-      "employeeId": 1,
-      "year": 2025,
-      "leaveType": "Casual",
-      "totalDays": 7,
-      "usedDays": 1,
-      "remainingDays": 6
-    },
-    {
-      "balanceId": 4,
-      "employeeId": 2,
-      "year": 2025,
-      "leaveType": "Annual",
-      "totalDays": 18,
-      "usedDays": 10,
-      "remainingDays": 8
-    },
-    {
-      "balanceId": 5,
-      "employeeId": 2,
-      "year": 2025,
-      "leaveType": "Sick",
-      "totalDays": 10,
-      "usedDays": 0,
-      "remainingDays": 10
-    },
-    {
-      "balanceId": 6,
-      "employeeId": 2,
-      "year": 2025,
-      "leaveType": "Casual",
-      "totalDays": 7,
-      "usedDays": 3,
-      "remainingDays": 4
-    },
-    {
-      "balanceId": 7,
-      "employeeId": 3,
-      "year": 2025,
-      "leaveType": "Annual",
-      "totalDays": 18,
-      "usedDays": 0,
-      "remainingDays": 18
-    },
-    {
-      "balanceId": 8,
-      "employeeId": 3,
-      "year": 2025,
-      "leaveType": "Sick",
-      "totalDays": 10,
-      "usedDays": 4,
-      "remainingDays": 6
-    },
-    {
-      "balanceId": 9,
-      "employeeId": 3,
-      "year": 2025,
-      "leaveType": "Casual",
-      "totalDays": 7,
-      "usedDays": 2,
-      "remainingDays": 5
-    },
-    {
-      "balanceId": 10,
-      "employeeId": 4,
-      "year": 2025,
-      "leaveType": "Annual",
-      "totalDays": 18,
-      "usedDays": 18,
-      "remainingDays": 0
-    },
-    {
-      "balanceId": 11,
-      "employeeId": 4,
-      "year": 2025,
-      "leaveType": "Sick",
-      "totalDays": 10,
-      "usedDays": 1,
-      "remainingDays": 9
-    },
-    {
-      "balanceId": 12,
-      "employeeId": 4,
-      "year": 2025,
-      "leaveType": "Casual",
-      "totalDays": 7,
-      "usedDays": 7,
-      "remainingDays": 0
-    },
-    {
-      "balanceId": 13,
-      "employeeId": 5,
-      "year": 2025,
-      "leaveType": "Annual",
-      "totalDays": 18,
-      "usedDays": 3,
-      "remainingDays": 15
-    },
-    {
-      "balanceId": 14,
-      "employeeId": 5,
-      "year": 2025,
-      "leaveType": "Sick",
-      "totalDays": 10,
-      "usedDays": 0,
-      "remainingDays": 10
-    },
-    {
-      "balanceId": 15,
-      "employeeId": 5,
-      "year": 2025,
-      "leaveType": "Casual",
-      "totalDays": 7,
-      "usedDays": 0,
-      "remainingDays": 7
-    }
+    { "balanceId": 1,  "employeeId": 1, "year": 2025, "leaveType": "Annual", "totalDays": 18, "usedDays": 5,  "remainingDays": 13 },
+    { "balanceId": 2,  "employeeId": 1, "year": 2025, "leaveType": "Sick",   "totalDays": 10, "usedDays": 2,  "remainingDays": 8  },
+    { "balanceId": 3,  "employeeId": 1, "year": 2025, "leaveType": "Casual", "totalDays": 7,  "usedDays": 1,  "remainingDays": 6  },
+    { "balanceId": 4,  "employeeId": 2, "year": 2025, "leaveType": "Annual", "totalDays": 18, "usedDays": 10, "remainingDays": 8  },
+    { "balanceId": 5,  "employeeId": 2, "year": 2025, "leaveType": "Sick",   "totalDays": 10, "usedDays": 0,  "remainingDays": 10 },
+    { "balanceId": 6,  "employeeId": 2, "year": 2025, "leaveType": "Casual", "totalDays": 7,  "usedDays": 3,  "remainingDays": 4  },
+    { "balanceId": 7,  "employeeId": 3, "year": 2025, "leaveType": "Annual", "totalDays": 18, "usedDays": 0,  "remainingDays": 18 },
+    { "balanceId": 8,  "employeeId": 3, "year": 2025, "leaveType": "Sick",   "totalDays": 10, "usedDays": 4,  "remainingDays": 6  },
+    { "balanceId": 9,  "employeeId": 3, "year": 2025, "leaveType": "Casual", "totalDays": 7,  "usedDays": 2,  "remainingDays": 5  },
+    { "balanceId": 10, "employeeId": 4, "year": 2025, "leaveType": "Annual", "totalDays": 18, "usedDays": 18, "remainingDays": 0  },
+    { "balanceId": 11, "employeeId": 4, "year": 2025, "leaveType": "Sick",   "totalDays": 10, "usedDays": 1,  "remainingDays": 9  },
+    { "balanceId": 12, "employeeId": 4, "year": 2025, "leaveType": "Casual", "totalDays": 7,  "usedDays": 7,  "remainingDays": 0  },
+    { "balanceId": 13, "employeeId": 5, "year": 2025, "leaveType": "Annual", "totalDays": 18, "usedDays": 3,  "remainingDays": 15 },
+    { "balanceId": 14, "employeeId": 5, "year": 2025, "leaveType": "Sick",   "totalDays": 10, "usedDays": 0,  "remainingDays": 10 },
+    { "balanceId": 15, "employeeId": 5, "year": 2025, "leaveType": "Casual", "totalDays": 7,  "usedDays": 0,  "remainingDays": 7  }
   ],
   "_meta": {
-    "lastEmployeeId": 6,
-    "lastLeaveId": 4,
+    "lastEmployeeId": 5,
+    "lastLeaveId": 0,
     "lastBalanceId": 15
   }
 }
